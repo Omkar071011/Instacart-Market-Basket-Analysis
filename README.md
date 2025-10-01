@@ -1,13 +1,9 @@
 # Instacart-Market-Basket-Analysis :shopping_cart:
-<div align="center">
-<img src="./images/challenge.jpg" alt="graph" width="200"/>
-</div>
 
 ## Project Description 
 - This project exploits the power of
 data analysis and machine learning
-to take business to the next level!
-- It's one of the competiting projects in [Data Science - Challenge Round 2 Hosted by Dr. Doaa Mahmoud](https://www.linkedin.com/posts/doaa-mahmoud-abdel-aty-01b25b144_datascience-machinelearning-data-activity-6919216035816517632-R9Fl/?utm_source=linkedin_share&utm_medium=member_desktop_web). 
+to take business to the next level! 
 - The project consist of 3 sections
     - EDA and Interactive Dashboard by Power BI
     - Predictive Analysis Model
@@ -63,5 +59,4 @@ https://user-images.githubusercontent.com/59095993/172076108-dc4b1109-accc-4c6e-
 > * First, we've found that there's alot of false negatives, do We changed the threshold to maximize the recall, while keeping the precision above a certain threshold [0.3]. 
 > * In ther words, we wanted to reduce, the false negatives, the number of products the model say user won't predict in the future while he/she will actually does. On the other side, it's okay to allow some false positives, when the model recommends a products the user will less likely buy in his/her next order.
 
-![The PR-Curve](images/pr-curve.png)
 
